@@ -55,10 +55,14 @@ a{
 }
 
 body{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
-
+main{
+    width:75%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 @media only screen and (max-width: 750px) {
     nav ul {
         position: fixed;
