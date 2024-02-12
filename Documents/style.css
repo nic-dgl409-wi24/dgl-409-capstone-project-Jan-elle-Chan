@@ -20,7 +20,10 @@ nav{
     top: 0;
 }
 
-
+nav img{
+    height: 50px;
+    width:auto;
+}
 
 nav li{
     list-style-type: none;
