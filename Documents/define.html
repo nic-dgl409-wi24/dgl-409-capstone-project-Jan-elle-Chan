@@ -1,60 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Design Thinking Simplified</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Design Thinking Simplified MVP</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <nav>
-      <a href="#"><img src="images/circle_logo.png" /></a>
-      <ul class="nav-menu">
-        <li class="nav-item">
-          <a href="#" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Empathize</a>
-        </li>
-        <li class="nav-item">
-          <a href="define.html" class="nav-link">Define</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Ideate</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Prototype</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Test</a>
-        </li>
-      </ul>
-      <div class="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
-    </nav>
-    <header></header>
+    <header>
+      <nav class="navbar bg-dark navbar-expand-lg text-light" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Design Thinking Simplified</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Empathize</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="define.html">Define</a>
+              </li>
+              <!--<li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Define
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>-->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ideate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Prototype</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
-      <h1>Define</h1>
-      
-<p>During the define stage you will use the information gathered from the Empathize stage to help define the user problem. The problem statement you develop will be used to drive the Ideation stage.</p>
+      <div class="py-4">
+        <div class="container">
+          <div class="col-md-4 col-lg-12">
+            <h1>The Define Stage</h1>
+            <p>During the define stage you will use the information gathered from the Empathize stage to help define the user problem. The problem statement you develop will be used to drive the Ideation stage.</p>
 
 <p>By now you will have a clear understanding of who the user is, what they want to accomplish, and what their pain points are.</p>
 
-  <p>A pain point is any obstruction, issue or challenge faced by the user in their attempt to accomplish their goal. Pain points present you with opportunities, in that they can be addressed in your solution, increasing its value to the user.</p>
+<p>A pain point is any obstruction, issue or challenge faced by the user in their attempt to accomplish their goal. Pain points present you with opportunities, in that they can be addressed in your solution, increasing its value to the user.</p>
 
-<h2>Techniques or Tools </h2>
-
-<p>User personas<details>User personas are .....</details></p>
-<p>Users Stories</p>
-<p>How Might We Statements</p>
-<p>Point of View Statement</p>
-
-
-
+          </div>
+          <div class="col-md-4 col-lg-12">
+            <h1>Design Stage Techniques</h1>
+            
+            <ol class="list-group list-group-flush">
+              <li class="list-group-item">
+                User personas
+              </li>
+              <li class="list-group-item">
+                Users Stories
+              </li>
+              <li class="list-group-item">
+                How Might We Statements
+              </li>
+              <li class="list-group-item">
+                Point of View Statement
+              </li>
+              
+            </ol>
+          </div>
+        </div>
+      </div>
+      
     </main>
-    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
